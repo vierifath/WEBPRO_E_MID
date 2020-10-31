@@ -15,7 +15,7 @@ class BookingFormController extends Controller
     public function index($id)
     {
         $data = $id;
-        return view ('Room/BookingForm')->with('data',$data);
+        return view ('room/BookingForm')->with('data',$data);
     }
 
     /**
